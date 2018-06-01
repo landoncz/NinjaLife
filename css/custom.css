@@ -14,3 +14,7 @@
 	opacity: .4;
 }
 .cover-1 { background-color: rgba(0, 0, 0, 0.5); background: none; }
+li.nav-item {
+    margin-right: .4rem;
+}
+.features-4 { padding: 1rem 0; }
