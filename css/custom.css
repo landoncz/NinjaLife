@@ -1,6 +1,10 @@
+body {
+    background-color: #200706;
+}
+
 #video-background {
-	position: fixed;
-	top: 50%;
+    position: fixed;
+    top: 50%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
@@ -9,15 +13,22 @@
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-/*    background: url(polina.jpg) no-repeat;*/
     background-size: cover;
-	opacity: .4;
+    opacity: .4;
 }
-.cover-1 { background-color: rgba(0, 0, 0, 0.5); background: none; }
+
+.cover-1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    background: none;
+}
+
 li.nav-item {
     margin-right: .4rem;
 }
-.features-4 { padding: 1rem 0; }
+
+.features-4 {
+    padding: 1rem 0;
+}
 
 .carousel-item {
     height: 65vh;
@@ -27,12 +38,29 @@ li.nav-item {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
-  
-  .portfolio-item {
+}
+
+.portfolio-item {
     margin-bottom: 30px;
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: 'NinjaRuto';
     src: url('../fonts/njnaruto.ttf');
-  }
+}
+
+.ninja-type {
+    font-family: 'NinjaRuto';
+}
+
+navbar-nav,
+nav-item,
+a.nav-link {
+    font-size: 140%;
+}
+
+navbar-nav,
+nav-item,
+a.btn {
+    font-size: 120%;
+}
