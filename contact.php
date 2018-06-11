@@ -94,36 +94,38 @@
 	</section>
 
 	<section class="contact-1 bg-light">
+		<!-- Success Message display for contact form -->
+		<div id="success" class="text-center">
+			<?php if ( intval( $_GET["success"] ) == 1) echo "<div class='alert alert-success'>Thank you, your message was sent successfully</div>"; ?>
+		</div>
+
 		<div id="map"></div>
 		<script src="js/maps.js"></script>
 		<!--YOU MUST REPLACE WITH YOUR OWN API KEY FOR THE MAP TO WORK-->
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwnewHIA8wSRmN5w2vIFnUgSoS8sZgHn8&callback=initMap&center=30.4213,-87.2169">
 		</script>
+
 		<div class="container">
 			<div class="row contact-details">
 				<div class="col-sm-8 text-center text-md-left mb-4">
 					<h3>Get in Touch with Us</h3>
-					<form name="sentMessage" id="contactForm" action="bin/contact_send.php" novalidate class="contact-form mt-4">
+					<form name="sentMessage" id="contactForm" action="bin/contact_send.php" method="POST" novalidate class="contact-form mt-4">
 						<div class="row">
 							<div class="col-md-5">
-								<input type="text" class="form-control-custom mb-4" id="name" placeholder="Your Name" required data-validation-required-message="Please enter your name.">
+								<input type="text" class="form-control-custom mb-4" name="name" id="name" placeholder="Your Name" required data-validation-required-message="Please enter your name.">
 							</div>
 							<div class="col-md-5">
-								<input type="text" class="form-control-custom mb-4" id="email" placeholder="Your Email Address" required data-validation-required-message="Please enter your email address.">
+								<input type="text" class="form-control-custom mb-4" name="email" id="email" placeholder="Your Email Address" required data-validation-required-message="Please enter your email address.">
 							</div>
 							<br />
 						</div>
 						<div class="row">
 							<div class="col-md-10">
-								<textarea class="form-control-custom mb-4" rows="3" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none" placeholder="Your Message"></textarea>
+								<textarea class="form-control-custom mb-4" rows="3" name="message" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none" placeholder="Your Message"></textarea>
 								<br />
 								<button type="submit" class="btn btn-danger btn-lg mb-4">Send Message</button>
 							</div>
 						</div>
-						<div id="success">
-							<?php if ( intval( $_GET["success"] ) == 1) echo "<div class='alert alert-success'>Thank you, your message was sent successfully</div>"; ?>
-						</div>
-                    	<!-- For success/fail messages -->
 					</form>
 				</div>
 				<div class="col-sm-4 text-center text-md-left">

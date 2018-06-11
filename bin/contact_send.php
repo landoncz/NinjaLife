@@ -10,7 +10,7 @@ if ( isset( $message )) {
 	$message = str_replace( "\\n", "<br>", $message );
 	$message = str_replace( "\\r", "<br>", $message );
 	//$to = "landon@holleygrove.com, info@stjohnsdb.com";
-	$to = "landonz@gmail.com";
+	$to = "landonz@gmail.com,scott@ninja-life.com";
 	$from_name = "Ninja Life Website - " . $name;
 	$from_email = "donotreply@ninja-life.com";
 	$subject = "Ninja Life Contact Form";
@@ -79,9 +79,9 @@ function hg_mail( $to, $from_name, $from_address, $subject, $body, $check_errors
 		
 		// SEND THE EMAIL
 		// INI lines are to force the From Address to be used !
-		//ini_set( sendmail_from, $from_address );
+		ini_set( sendmail_from, $from_address );
 		$response = mail( $to, $subject, $msg, $headers );
-		//ini_restore( sendmail_from );
+		ini_restore( sendmail_from );
 		
 		// Play nice and unset variables
 		unset( $to );
