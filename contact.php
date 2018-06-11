@@ -3,9 +3,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Ninja Life - Pre-Sale Memberships and Investors</title>
+	<title>Ninja Life - Contact Us</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="description" content="Ninja Life - Pre-Sale Memberships and Investment Opportunities.  Be the first to experience Pensacola's only ninja obstacle course training facitily.">
+	<meta name="description" content="Ninja Life - Contact Us. Pensacola ninja obstacle course training gym, special events, and birthday parties">
 	<meta name="author" content="Landon Zabcik, Scott Fredrickson">
 	<meta name="Subject" content="Fitnees, Training, Sports, Children, School, After-school care, Ninja Warrior">
 	<meta name="Classification" content="Pensacola Ninja Warrior Fitness, Pensacola Obstacle Course, Pensacola Gym, Pensacola Training Facility, Pensacola After School Care">
@@ -74,15 +74,15 @@
 						<li class="nav-item mx-2">
 							<a class="nav-link" href="about_us.html">
 								<strong>About Us</strong>
+							</a>
+						</li>
+						<li class="nav-item active mx-2">
+							<a class="nav-link" href="contact.html">
+								<strong>Contact</strong>
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
 						<li class="nav-item mx-2">
-							<a class="nav-link" href="contact.html">
-								<strong>Contact</strong>
-							</a>
-						</li>
-						<li class="nav-item mx-2 active">
 							<a class="btn btn-outline-dark btn-outline" href="pre_sale.html">
 								<strong>&gt; Pre Sale &lt;</strong>
 							</a>
@@ -93,35 +93,62 @@
 		</nav>
 	</section>
 
-	<section class="features-1 text-center bg-light">
+	<section class="contact-1 bg-light">
+		<div id="map"></div>
+		<script src="js/maps.js"></script>
+		<!--YOU MUST REPLACE WITH YOUR OWN API KEY FOR THE MAP TO WORK-->
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwnewHIA8wSRmN5w2vIFnUgSoS8sZgHn8&callback=initMap&center=30.4213,-87.2169">
+		</script>
 		<div class="container">
-			<h2>Pre-Sale Exclusives</h2>
-			<div class="divider"></div>
-			<div class="row">
-				<div class="col-md-4 col-feature">
-					<div class="rounded-circle justify-center">
-						<em class="fa fa-2x fa-address-card"></em>
-					</div>
-					<h4>Lifetime Membership: $1,500</h4>
-					<p>Don't miss your opportunity to purchase a
-						<strong>lifetime</strong> membership to our gym!</p>
-					<p><a class="btn btn-outline-danger mt-2" href="mailto:scott@ninja-life.com?Subject=Lifetime%20Membership" role="button">Email Us</a></p>
+			<div class="row contact-details">
+				<div class="col-sm-8 text-center text-md-left mb-4">
+					<h3>Get in Touch with Us</h3>
+					<form name="sentMessage" id="contactForm" action="bin/contact_send.php" novalidate class="contact-form mt-4">
+						<div class="row">
+							<div class="col-md-5">
+								<input type="text" class="form-control-custom mb-4" id="name" placeholder="Your Name" required data-validation-required-message="Please enter your name.">
+							</div>
+							<div class="col-md-5">
+								<input type="text" class="form-control-custom mb-4" id="email" placeholder="Your Email Address" required data-validation-required-message="Please enter your email address.">
+							</div>
+							<br />
+						</div>
+						<div class="row">
+							<div class="col-md-10">
+								<textarea class="form-control-custom mb-4" rows="3" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none" placeholder="Your Message"></textarea>
+								<br />
+								<button type="submit" class="btn btn-danger btn-lg mb-4">Send Message</button>
+							</div>
+						</div>
+						<div id="success">
+							<?php if ( intval( $_GET["success"] ) == 1) echo "<div class='alert alert-success'>Thank you, your message was sent successfully</div>"; ?>
+						</div>
+                    	<!-- For success/fail messages -->
+					</form>
 				</div>
-				<div class="col-md-4 col-feature">
-					<div class="rounded-circle justify-center">
-						<em class="fa fa-2x fa-birthday-cake"></em>
-					</div>
-					<h4>Birthday Parties</h4>
-					<p>Our <strong>mobile ninja obstacle course</strong> is opening soon in Pensacola! Perfect for birthday parties!</p>
-					<p><a class="btn btn-outline-danger mt-2" href="mailto:scott@ninja-life.com?Subject=Birthday%20Parties" role="button">Email Us</a></p>
-				</div>
-				<div class="col-md-4 col-feature">
-					<div class="rounded-circle justify-center">
-						<em class="fa fa-2x fa-dollar"></em>
-					</div>
-					<h4>Investor Opportunities Available</h4>
-					<p>A limited amount of investor positions are available for qualified investors.</p>
-					<p><a class="btn btn-outline-danger mt-2" href="mailto:scott@ninja-life.com?Subject=Investor%20Opportunities" role="button">Email Us</a></p>
+				<div class="col-sm-4 text-center text-md-left">
+					<h3>Contact</h3>
+					<h4 class="pt-4">Email</h4>
+					<p><a href='mailto:info@ninja-life.com?Subject=Contact'>info@ninja-life.com</a></p>
+					<h4 class="pt-2">Phone</h4>
+					<p>(850) 287-1717</p>
+					<h4 class="pt-2">Address</h4>
+					<p>Coming Soon, Pensacola, FL
+						<br /> United States</p>
+					<ul class="social">
+						<li>
+							<a href="#" title="Facebook" class="fa fa-facebook"></a>
+						</li>
+						<li>
+							<a href="#" title="Twitter" class="fa fa-twitter"></a>
+						</li>
+						<!--<li><a href="#" title="Google+" class="fa fa-google"></a></li>
+							<li><a href="#" title="Dribbble" class="fa fa-dribbble"></a></li>-->
+						<li>
+							<a href="#" title="Instagram" class="fa fa-instagram"></a>
+						</li>
+						<div class="clear"></div>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -213,7 +240,7 @@
 	</footer>
 
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
