@@ -77,7 +77,7 @@
 							</a>
 						</li>
 						<li class="nav-item active mx-2">
-							<a class="nav-link" href="contact.html">
+							<a class="nav-link" href="contact.php">
 								<strong>Contact</strong>
 								<span class="sr-only">(current)</span>
 							</a>
