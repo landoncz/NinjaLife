@@ -96,7 +96,7 @@
 	<section class="contact-1 bg-light">
 		<!-- Success Message display for contact form -->
 		<div id="success" class="text-center">
-			<?php if ( intval( $_GET["success"] ) == 1) echo "<div class='alert alert-success'>Thank you, your message was sent successfully</div>"; ?>
+			<?php if (intval($_GET["success"]) == 1) echo "<div class='alert alert-success'>Thank you, your message was sent successfully</div>"; ?>
 		</div>
 
 		<div id="map"></div>
@@ -167,6 +167,9 @@
 					<h5>Training</h5>
 					<ul class="nav-footer">
 						<li class="nav-item">
+							<a class="nav-link" href="memberships.html">Memberships</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link" href="#">Classes</a>
 						</li>
 						<li class="nav-item">
@@ -210,7 +213,7 @@
 							<a class="nav-link" href="#">Kids Camps</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Birthday Parties</a>
+							<a class="nav-link" href="birthday_parties.html">Birthday Parties</a>
 						</li>
 					</ul>
 				</div>
