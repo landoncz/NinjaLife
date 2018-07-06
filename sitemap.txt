@@ -4,3 +4,4 @@ http://ninja-life.com/contact.php
 http://ninja-life.com/pre_sale.html
 http://ninja-life.com/memberships.html
 http://ninja-life.com/birthday_parties.html
+http://ninja-life.com/investment.html
