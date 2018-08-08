@@ -1,6 +1,7 @@
 http://ninja-life.com/
 http://ninja-life.com/about_us.html
 http://ninja-life.com/contact.php
+http://ninja-life.com/news.html
 http://ninja-life.com/pre_sale.html
 http://ninja-life.com/memberships.html
 http://ninja-life.com/birthday_parties.html
