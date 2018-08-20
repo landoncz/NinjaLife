@@ -144,13 +144,11 @@
 						<br /> United States</p>
 					<ul class="social">
 						<li>
-							<a href="#" title="Facebook" class="fa fa-facebook"></a>
+							<a href="https://www.facebook.com/NinjaLifePensacola/" title="Facebook" class="fa fa-facebook"></a>
 						</li>
 						<li>
 							<a href="#" title="Twitter" class="fa fa-twitter"></a>
 						</li>
-						<!--<li><a href="#" title="Google+" class="fa fa-google"></a></li>
-							<li><a href="#" title="Dribbble" class="fa fa-dribbble"></a></li>-->
 						<li>
 							<a href="#" title="Instagram" class="fa fa-instagram"></a>
 						</li>
@@ -238,7 +236,7 @@
 				<div class="col-md-6 text-center text-md-right mb-4">
 					<ul class="social">
 						<li>
-							<a href="#" title="Facebook" class="fa fa-facebook"></a>
+							<a href="https://www.facebook.com/NinjaLifePensacola/" title="Facebook" class="fa fa-facebook"></a>
 						</li>
 						<li>
 							<a href="#" title="Instagram" class="fa fa-instagram"></a>
