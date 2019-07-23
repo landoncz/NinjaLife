@@ -168,6 +168,7 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: uluru,
     map: map,
+    center: {lat: 30.472037, lng: -87.262564},
     icon: 'images/marker.png'
   });
   
