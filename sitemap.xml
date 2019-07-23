@@ -65,4 +65,9 @@
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
+	<url>
+		<loc>http://ninja-life.com/hours_of_operation.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
 </urlset>
