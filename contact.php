@@ -135,7 +135,7 @@
 					<h4 class="pt-2">Phone</h4>
 					<p>(850) 287-1717</p>
 					<h4 class="pt-2">Address</h4>
-					<p>Coming Soon, Pensacola, FL
+					<p>1211 Rainbow Ave, Pensacola, FL 32505
 						<br /> United States</p>
 					<ul class="social">
 						<li>
@@ -145,7 +145,7 @@
 							<a href="#" title="Twitter" class="fa fa-twitter"></a>
 						</li>
 						<li>
-							<a href="#" title="Instagram" class="fa fa-instagram"></a>
+							<a href="https://www.instagram.com/ninjalifepensacola/" title="Instagram" class="fa fa-instagram"></a>
 						</li>
 						<div class="clear"></div>
 					</ul>
@@ -237,7 +237,7 @@
 							<a href="https://www.facebook.com/NinjaLifePensacola/" title="Facebook" class="fa fa-facebook"></a>
 						</li>
 						<li>
-							<a href="#" title="Instagram" class="fa fa-instagram"></a>
+							<a href="https://www.instagram.com/ninjalifepensacola/" title="Instagram" class="fa fa-instagram"></a>
 						</li>
 						<li>
 							<a href="#" title="YouTube" class="fa fa-youtube"></a>
