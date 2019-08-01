@@ -72,3 +72,5 @@ a.btn {
 .about-us-carousel-bg { background-color:rgba(43, 45, 52, 0.8); }
 
 .footer-4 { margin-top: 1rem; }
+
+.headerAddress { position: absolute; right: 30px; bottom: 5px; font-size: 110%; font-style: italic; }
