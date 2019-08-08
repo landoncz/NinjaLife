@@ -103,7 +103,7 @@
 		<div id="map"></div>
 		<script src="js/maps.js"></script>
 		<!--YOU MUST REPLACE WITH YOUR OWN API KEY FOR THE MAP TO WORK-->
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbhfKyI8eTHrEMlHYpqZSxbvuCiA28DjQ&callback=initMap">
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANT3UmNZY2kyeuNJGDvHACAvVBxH5tswY&callback=initMap">
 		</script>
 
 		<div class="container">
