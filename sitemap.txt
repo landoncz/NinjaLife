@@ -14,3 +14,4 @@ http://ninja-life.com/our_history.html
 http://ninja-life.com/hours_of_operation.html
 http://ninja-life.com/classes.html
 http://ninja-life.com/coaches.html
+http://ninja-life.com/affiliation.html
