@@ -16,3 +16,4 @@ http://ninja-life.com/classes.html
 http://ninja-life.com/coaches.html
 http://ninja-life.com/affiliation.html
 http://ninja-life.com/location.html
+http://ninja-life.com/special_events.html
