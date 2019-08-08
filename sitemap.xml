@@ -70,4 +70,9 @@
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
+	<url>
+		<loc>http://ninja-life.com/classes.html</loc>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
 </urlset>
