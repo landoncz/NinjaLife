@@ -169,7 +169,8 @@ function initMap() {
     position: uluru,
     map: map,
     center: {lat: 30.472624, lng: -87.262853},
-    icon: 'images/marker.png'
+    icon: 'images/marker.png',
+    title: 'Ninja-Life Gym'
   });
   
 }
