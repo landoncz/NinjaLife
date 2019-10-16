@@ -175,6 +175,9 @@
 					<h5>Training</h5>
 					<ul class="nav-footer">
 						<li class="nav-item">
+							<a class="nav-link" href="waiver.html">Waiver</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link" href="memberships.html">Memberships</a>
 						</li>
 						<li class="nav-item">
@@ -208,6 +211,9 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="special_events.html">Special Events</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">Gallery</a>
 						</li>
 					</ul>
 				</div>
