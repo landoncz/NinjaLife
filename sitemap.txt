@@ -19,3 +19,5 @@ http://ninja-life.com/location.html
 http://ninja-life.com/special_events.html
 http://ninja-life.com/competitions.html
 http://ninja-life.com/schedule.html
+http://ninja-life.com/waiver.html
+http://ninja-life.com/gallery.html
