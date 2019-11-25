@@ -143,7 +143,7 @@
 					<h4 class="pt-4">Email</h4>
 					<p><a href='mailto:info@ninja-life.com?Subject=Contact'>info@ninja-life.com</a></p>
 					<h4 class="pt-2">Phone</h4>
-					<p>(850) 287-1717</p>
+					<p>(850) 466-3289</p>
 					<h4 class="pt-2">Address</h4>
 					<p>1211 Rainbow Ave, Pensacola, FL 32505
 						<br /> United States</p>
