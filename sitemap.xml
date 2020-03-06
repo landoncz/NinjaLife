@@ -115,4 +115,9 @@
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
+	<url>
+		<loc>http://ninja-life.com/summer_camps.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
 </urlset>
