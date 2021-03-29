@@ -22,3 +22,4 @@ http://ninja-life.com/schedule.html
 http://ninja-life.com/waiver.html
 http://ninja-life.com/gallery.html
 http://ninja-life.com/summer_camps.html
+http://ninja-life.com/merchandise.html
